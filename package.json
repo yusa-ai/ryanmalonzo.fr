@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "win-node-env": "^0.5.0"
+  },
+  "scripts": {
+    "build": "tailwindcss build -i src/tailwind.css -o public/css/tailwind.css",
+    "prod": "NODE_ENV=production tailwindcss build -i src/tailwind.css -o public/css/tailwind.css"
+  }
+}
